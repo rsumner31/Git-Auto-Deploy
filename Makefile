@@ -10,7 +10,6 @@ PYTHON       ?= python2
 
 # Debian distos to create packages for
 DISTROS= \
-	artful \
 	xenial \
 	trusty \
 	precise \
