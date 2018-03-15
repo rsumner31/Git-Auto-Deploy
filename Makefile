@@ -10,10 +10,10 @@ PYTHON       ?= python2
 
 # Debian distos to create packages for
 DISTROS= \
-	artful \
 	xenial \
 	trusty \
-	precise
+	precise \
+	zesty
 
 # Package name and version
 PACKAGE_NAME=$(shell python setup.py --name)
